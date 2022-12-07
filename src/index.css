@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main-container{
+  background-color: aquamarine;
+  height: 100vh;
 }
+.main-emoji-container{
+ display: flex;
+ justify-content: center;
+}
+.show-emoji-container{
+  margin-top: 10px;
+background-color: azure;
+height: 190px;
+width: 150px;
+border-radius: 10px;
+border: double 1px black;
+}
+.emoji-container-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 70px;
+}
+.title-container{
+  display: flex;
+  justify-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.title{
+  background-color: azure;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+  box-shadow: 3px 2px 2px 0px #181616;
+  font-family: sans-serif;
+  color: chocolate;
+}
+.emoji-container{
+  background-color: white;
+  height: 30px;
+  width: 60%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  box-shadow: 2px 1px 2px 1px #808080;
+}
+.emoji{
+  cursor: pointer;
+  font-size: 20px;
+}
+.emoji:hover{
+  transform: scale(1.2);
 }

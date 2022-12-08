@@ -21,7 +21,7 @@ function App() {
 
           </div>
           <div className='editing container'>
-            <span>Editing</span>
+            <span></span>
             <div className='editing-tool' >
               <div className='color-container'>
                 <div className='color-item bg-red' onClick={()=>{setEmojiColor("red")}}></div>

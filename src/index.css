@@ -1,32 +1,37 @@
-.main-container{
+.main-container {
   background-color: aquamarine;
   height: 100vh;
 }
-.main-emoji-container{
- display: flex;
- justify-content: center;
+
+.main-emoji-container {
+  display: flex;
+  justify-content: space-evenly;
 }
-.show-emoji-container{
-  margin-top: 10px;
-background-color: azure;
-height: 190px;
-width: 150px;
-border-radius: 10px;
-border: double 1px black;
+
+.show-emoji-container {
+  margin-top: 60px;
+
+  height: 190px;
+  width: 150px;
+  border-radius: 10px;
+  border: double 1px black;
 }
-.emoji-container-content{
+
+.emoji-container-content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 70px;
+  
 }
-.title-container{
+
+.title-container {
   display: flex;
   justify-content: center;
 
 }
-.title{
+
+.title {
   background-color: azure;
   padding: 10px;
   width: 30%;
@@ -37,7 +42,8 @@ border: double 1px black;
   font-family: sans-serif;
   color: chocolate;
 }
-.emoji-container{
+
+.emoji-container {
   background-color: white;
   height: 30px;
   width: 60%;
@@ -50,10 +56,69 @@ border: double 1px black;
   border-radius: 15px;
   box-shadow: 2px 1px 2px 1px #808080;
 }
-.emoji{
+
+.emoji {
   cursor: pointer;
   font-size: 20px;
 }
-.emoji:hover{
+
+.emoji:hover {
   transform: scale(1.2);
+}
+
+.editing-tool {
+
+  background-color: aliceblue;
+  height: 90px;
+  width: 340px;
+  border-radius: 15px;
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.color-item {
+  height: 20px;
+  width: 23px;
+  background-color: red;
+
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.color-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.size-container{
+  background-color: rgb(179, 187, 194);
+  height: 50px;
+  padding: 2px;
+  width: 340px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.size-slider{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
